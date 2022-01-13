@@ -1,14 +1,4 @@
 @charset "UTF-8";
-/* Feel free to remove these styles or customise in your own stylesheet 👍  */
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: #3e52a3;
-}
-
 /* 
     Colores
 */
@@ -17,6 +7,22 @@
 /* (main BG) */
 /* (card BG) */
 /* (lines) */
+/* Feel free to remove these styles or customise in your own stylesheet 👍  */
+.attribution {
+  box-sizing: content-box;
+  border-top: 1px solid #2f415b;
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 10px;
+  font-size: 11px;
+  text-align: center;
+  color: #00fff7;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
 body {
   background-color: #0d192b;
   font-family: "Outfit", sans-serif;
@@ -150,6 +156,11 @@ body {
   margin: 1em 0;
 }
 
+@media only screen and (max-width: 433px) {
+  .card {
+    width: 80%;
+  }
+}
 @media only screen and (min-width: 768px) {
   .card {
     width: 50%;
